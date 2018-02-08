@@ -1,53 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-<!-- Content -->
 
-body {
-    font-size: 20px;
-    font-weight: 200;
-    font-display: fallback; 
-    font-family: 'Tangerine', serif;
-    font-size: 48px;
-}
-h1 {
-    font-family: Lobster,monospace;
-    font-size: 90px;  
-}
-
-.center-align {
-    text-align: center;
-    font-weight: bold;
-    color:red;
-    
-}
-
-.image-left {
-    border-color: red;
-    border-style: dotted;
-  border-style: solid;
-    text-align: center;
-    display: block;
-  
-}
-.image-right {
-    border-color: red;
-    border-style: dotted;
-  border-style: solid;
-    text-align: center;
-    display: block;
-}.image-center {
-    border-color: red;
-    border-style: dotted;
-  border-style: solid;
-    text-align: center;
-    display: block;
-}
-  p {
-    font-size: 16px;
-    font-family: Monospace;
-}
-.FV {
-    font-family: arial-black,cursive
-}
 
