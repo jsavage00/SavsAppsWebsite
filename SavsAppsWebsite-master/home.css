@@ -13,7 +13,7 @@
      width: 100%;
      height: 5%;
      align-content: center; 
-     color: #0dbabd; 
+     background-color: #0dbabd; 
      font-family: 'Open Sans Condensed', sans-serif; 
      font-size: 45px; 
      font-weight: bold; 
@@ -23,6 +23,7 @@
     position: relative;
      
  }
+
  .logo { 
      text-align: center;
      align-content: center;
@@ -39,6 +40,7 @@
      line-height: 32px; 
      margin: 0 0 72px; 
      text-align: center;
+     
      
  }
 
@@ -107,7 +109,7 @@
     width:100%;
     height:5%;
     text-align: center;
-    background-color: rebeccapurple;
+    background-color: white;
     font-size: 15px;
     white-space: 1px;
     border-spacing: 1px;
