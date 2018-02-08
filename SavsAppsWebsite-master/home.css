@@ -94,6 +94,7 @@
     overflow: hidden;
     background-color: aqua;
     padding-bottom: 37.7%;
+    text-align: center;
 }
 
 /* main section code end */
@@ -107,5 +108,9 @@
     height:5%;
     text-align: center;
     background-color: rebeccapurple;
+    font-size: 15px;
+    white-space: 1px;
+    border-spacing: 1px;
+    
     
 }
