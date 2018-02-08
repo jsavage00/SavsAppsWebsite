@@ -20,5 +20,23 @@
     height: 60%;
     border-top: 10%;
     background-color: orange;
-    position: relative;
+    float: left;
+}
+
+.mainSection{
+    
+    height: 60%;
+    width: 80%;
+    float: right;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.footer{
+    height: 5%;
+    width: 100%;
+    
+    background-color: rebeccapurple;
+    
+    
 }
