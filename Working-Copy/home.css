@@ -116,7 +116,14 @@ html{
     display: block;
     margin: 0 auto;
 }
-
+.VolantiPic{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+}
 /* main section code end */
 
 
