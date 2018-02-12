@@ -100,6 +100,23 @@ html{
     font-size: 200%;
     padding-left: 1%;
 }
+.quackersPic{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+}
+.desertedPic{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
 /* main section code end */
 
 
