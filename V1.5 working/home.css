@@ -21,6 +21,146 @@ html{
     padding: 2%;
 }
 
+.Support{
+    color: #DEAD4C;
+    font-size: 150%;
+    word-wrap: 10%;
+    padding: 2%;
+}
+.CustomerSupport{
+ width: 100%;
+     align-content: center; 
+     background-color: #0A0D5A; 
+     font-family: 'Open Sans Condensed', sans-serif; 
+     font-size: 45px; 
+     font-weight: bold; 
+     letter-spacing: 3px; 
+     line-height: 1; 
+     text-align: center;
+     position: relative;
+    overflow: hidden;   
+}
+.title-header{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.h-button{
+font-weight: 700;
+text-decoration: none;
+border-radius: 0;
+max-width: 100%;
+background-attachment:scroll;
+background-clip:border-box;
+background-color:rgb(96, 31, 31);
+background-image:none;
+background-origin:padding-box;
+background-size:auto;
+border-bottom-color:rgb(255, 255, 255);
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+border-bottom-style:none;
+border-bottom-width:0px;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(255, 255, 255);
+border-left-style:none;
+border-left-width:0px;
+border-right-color:rgb(255, 255, 255);
+border-right-style:none;
+border-right-width:0px;
+border-top-color:rgb(255, 255, 255);
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+border-top-style:none;
+border-top-width:0px;
+box-sizing:border-box;
+color:rgb(255, 255, 255);
+cursor:pointer;
+display:inline-block;
+font-family:"Open Sans Condensed", sans-serif;
+font-size:13px;
+height:50px;
+letter-spacing:1px;
+line-height:30px;
+max-width:100%;
+outline-color:rgb(255, 255, 255);
+outline-style:none;
+outline-width:0px;
+overflow-wrap:break-word;
+padding-bottom:10px;
+padding-left:44px;
+padding-right:44px;
+padding-top:10px;
+text-align:center;
+text-decoration-color:rgb(255, 255, 255);
+text-decoration-line:none;
+text-decoration-style:solid;
+text-size-adjust:100%;
+transition-delay:0s;
+transition-duration:0.3s;
+transition-property:all;
+transition-timing-function:ease;
+width:134.703px;
+}
+.message{
+    color: #101c24;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 8px 20px 7px;
+    outline: 0;
+    width: 100%;
+    vertical-align: middle;
+    resize: none;
+    overflow: auto;
+}
+.name {
+    background-color:rgb(255, 255, 255);
+  
+    box-sizing:border-box;
+    cursor:text;
+    display:inline-block;
+    font-family:"Open Sans", sans-serif;
+    font-size:16px;
+    font-stretch:100%;
+    font-style:normal;
+    font-weight:400;
+    height:43px;
+    letter-spacing:normal;
+    line-height:24px;
+    margin-bottom:30px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:30px;
+    overflow-wrap:break-word;
+    padding-bottom:7px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:8px;
+    text-align:start;
+    text-indent:2px;
+    text-rendering:auto;
+    text-shadow:none;
+text-size-adjust:100%;
+text-transform:none;
+vertical-align:center;
+width:646px;
+word-spacing:0px;
+word-wrap:break-word;
+
+
+}
+
 .header{
     
      width: 100%;
@@ -42,13 +182,12 @@ html{
 }
 
  .logo { 
-     
-     height: 10%;
+     text-align: center;
+     align-content: center;
+     height: 20%;
      width: 10%;
-     position: inherit;
-     
-     display: block;
-     margin: 0 auto;
+     border-radius: 15px;
+     margin-top: auto;
      
  }
  
@@ -88,76 +227,18 @@ html{
 .mainSection{
     
     height: 60%;
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     background-color: aliceblue;
     padding-bottom: 37.7%;
-       
+    
+    
+    
 }
 .ourGames{
     color: #DEAD4C;
     font-size: 200%;
-    
-}
-
-a{
-    color: #DEAD4C;
-}
-a:visited{
-    color: #DEAD4C;
-}
-
-
-/*Quackers game code -------------------*/
-.quackersPic{
-    position: relative;
-    width: 25%;
-    height: 30%;
-    align-content: center;
-    display: block;
-    margin: 0 auto;
-    
-}
-
-.quackersPic:hover{
-    width: 26%;
-    height: 30%;
-}
-
-.GameInfo{
-    color: #DEAD4C;
-    width: 30%;
-    display: block;
-    margin: 0 auto;
-    font-size: 130%;
-}
-
-/*Quackers game code end -------------------*/
-.desertedPic{
-    position: relative;
-    width: 25%;
-    height: 50%;
-    align-content: center;
-    display: block;
-    margin: 0 auto;
-}
-.desertedPic:hover{
-    width: 26%;
-    height: 30%;
-}
-
-.VolantiPic{
-    position: relative;
-    width: 25%;
-    height: 50%;
-    align-content: center;
-    display: block;
-    margin: 0 auto;
-}
-
-.VolantiPic:hover{
-    width: 26%;
-    height: 30%;
+    padding-left: 1%;
 }
 /* main section code end */
 
@@ -169,7 +250,7 @@ a:visited{
     width:100%;
     height:5%;
     text-align: center;
-    background-color: aliceblue;
+    background-color: white;
     font-size: 15px;
     white-space: 1px;
     border-spacing: 1px;
