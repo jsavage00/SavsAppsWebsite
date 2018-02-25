@@ -1,0 +1,241 @@
+html{
+    background-color: aliceblue;
+}
+.navigation{
+    width: 100%;
+    height: 6%;
+    top: 0;
+    background-color: #0A0D5A;
+    
+    position: relative;
+    text-align: right;
+    
+    overflow: hidden;
+    
+}
+
+.Contact{
+    color: #DEAD4C;
+    font-size: 150%;
+    word-wrap: 10%;
+    padding: 2%;
+}
+
+.header{
+    
+     width: 100%;
+     align-content: center; 
+     background-color: #0A0D5A; 
+     font-family: 'Open Sans Condensed', sans-serif; 
+     font-size: 45px; 
+     font-weight: bold; 
+     letter-spacing: -1px; 
+     line-height: 1; 
+     text-align: center;
+     position: relative;
+    overflow: hidden;
+    
+     
+ }
+.savsAppsText{
+    color: #DEAD4C;
+}
+
+ .logo { 
+    
+     height: 30%;
+     width: 20%;
+     
+     
+     float: left;
+     
+ }
+ 
+.form{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    background-color: aliceblue;
+    padding-bottom: 37.7%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+h3{
+    
+    font-size: 200%;
+}
+
+ /*
+
+.sub-header{
+     color: #111; 
+     font-family: 'Open Sans', sans-serif; font-size: 30px; 
+     font-weight: 300; 
+     line-height: 32px; 
+     margin: 0 0 72px; 
+     text-align: center;
+     
+     
+ }
+*/
+
+/* sidebar code start */
+.sidebar{
+    
+    width: 5%;
+    height: 40%;
+    bottom: 0;
+    position: relative;
+    background-color: orange;
+    float: left;
+    padding-bottom: 30%;
+}
+
+
+
+/* sidebar code end */
+
+/* main section code start */
+
+.mainSection{
+    
+    height: 60%;
+    width: 95%;
+    overflow: hidden;
+    background-color: aliceblue;
+    padding-bottom: 37.7%;
+    
+    
+    
+}
+.ourGames{
+    color: #DEAD4C;
+    font-size: 200%;
+    padding-left: 1%;
+}
+
+
+.quackersPic{
+    position: relative;
+    width: 30%;
+    height: 20%;
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+}
+.desertedPic{
+    position: relative;
+    width: 30%;
+    height: 20%;
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+}
+.VolantiPic{
+    position: relative;
+    width: 30%;
+    height: 20%;
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+}
+/* main section code end */
+
+
+.footer{
+    position:fixed;
+    left: 0;
+    bottom:0;
+    width:100%;
+    height:5%;
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    white-space: 1px;
+    border-spacing: 1px;
+    
+    
+}
+
+
+.GameInfo{
+    width: 50%;
+    color: #DEAD4C;
+    text-align: center;
+    font-size: 120%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+--------------------------------------------------------------
+/*Code not mine, found online*/
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+    
+}
+a { 
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background: white;
+    
+}
+#sticky-social {
+   left: 0;
+    position: fixed;
+    top: 150px;
+    z-index: 10;
+    padding-top: 15.3%;
+}
+#sticky-social a {
+   background: #333;
+   color: #fff;
+   display: block;
+   height: 35px;
+   font: 16px "Open Sans", sans-serif;
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+   width: 35px;
+}
+#sticky-social a span {
+   line-height: 35px;
+   left: -120px;
+   position: absolute;
+   text-align:center;
+   width:120px;
+}
+#sticky-social a:hover span {
+   left: 100%;
+}
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span { background: #3b5998; }
+
+#sticky-social a[class*="twitter"],
+#sticky-social a[class*="twitter"]:hover,
+#sticky-social a[class*="twitter"] span { background: #00aced; }
+
+
+#sticky-social a[class*="linkedin"],
+#sticky-social a[class*="linkedin"]:hover,
+#sticky-social a[class*="linkedin"] span { background: #007bb6; }  
+
+#sticky-social a[class*="instagrem"],
+#sticky-social a[class*="instagrem"]:hover,
+#sticky-social a[class*="instagrem"] span { background: #517fa4; }  
